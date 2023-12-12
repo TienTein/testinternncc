@@ -1,0 +1,37 @@
+.navbar__container {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    width: 10vw;
+    position: fixed;
+    .p__mobile {
+        padding: 1.5rem 3vw;
+    }
+    .menu__links {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 5px;
+        a {
+            font-weight: bold;
+            color: #aaaaaa;
+            display: block;
+            width: 100%;
+            padding: 5px 10px;
+            border-bottom: 1px solid #5c5c5c;
+            &:hover {
+                color: white;
+                border-color: white;
+            }
+            &.focus {
+                color: white;
+                border-color: white;
+            }
+        }
+    }
+
+    .red {
+        color: red;
+    }
+}
